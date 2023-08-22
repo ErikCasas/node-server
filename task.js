@@ -116,7 +116,8 @@ function displayMenu() {
 }
 
 console.log("¡Bienvenido a la lista de tareas!");
-displayMenu();
+// displayMenu(); No hace falta invocar en este punto la funcion si la vas a invocar en app
+//                Esto genera esa doble visualización al inicio 
 
 module.exports = {
     displayMenu,
