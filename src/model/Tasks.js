@@ -3,16 +3,6 @@ const Task = require("./Task");
 class Tasks {
   constructor() {
     this.list = [
-      {
-        id: "1",
-        description: "Salir a corre",
-        completed: true,
-      },
-      {
-        id: "2",
-        description: "la wea la fome",
-        completed: false,
-      },
     ];
   }
 
